@@ -34,3 +34,10 @@ ul, ol, menu{
     max-width: 940px;
     margin: 0 auto;
 }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* HEADER */
