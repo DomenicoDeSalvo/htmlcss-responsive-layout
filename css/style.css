@@ -56,3 +56,14 @@ ul, ol, menu{
 
 /* MEDIA QUERY  */
 
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 992px) {
+    .hamburger{
+        display: none;
+    }
+    
+}
+
