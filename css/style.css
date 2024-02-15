@@ -41,3 +41,18 @@ ul, ol, menu{
 }
 
 /* HEADER */
+
+.main__header{
+    background-color: #0084fd;
+    color: white;
+    
+}
+
+.hamburger{
+    margin-left: auto;
+    font-size: 20px;
+    align-self: center;
+}
+
+/* MEDIA QUERY  */
+
