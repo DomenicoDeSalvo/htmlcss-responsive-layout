@@ -21,8 +21,8 @@ ul, ol, menu{
 
 /* LAYOUT */
 
-.body{
-    font-family: "Roboto" , sans-serif;
+body{
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -40,23 +40,47 @@ ul, ol, menu{
     flex-wrap: wrap;
 }
 
+/* BUTTONS */
+
+.button{
+    border-radius: 999px;
+    padding: 10px;
+
+}
+
+.white-button{
+    color: black;
+    background-color: white;
+}
+
 /* HEADER */
 
 .main__header{
     background-color: #0084fd;
     color: white;
+    padding: 12px 0;
     
 }
 
+.main__header .row{
+    align-items: center;
+    justify-content: space-between;
+}
+
 .hamburger{
-    margin-left: auto;
     font-size: 20px;
-    align-self: center;
+    margin-left: auto;
+}
+
+.header__list{
+    display: none;   
 }
 
 /* MEDIA QUERY  */
 
 @media screen and (min-width: 768px) {
+    
+  
     
 }
 
@@ -64,6 +88,14 @@ ul, ol, menu{
     .hamburger{
         display: none;
     }
+
+    .header__list{
+        display: block;
+        display:flex; 
+        gap: 20px;
+        margin-left: auto;   
+    }
+
     
 }
 
