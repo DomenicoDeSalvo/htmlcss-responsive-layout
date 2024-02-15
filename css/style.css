@@ -53,6 +53,25 @@ body{
     background-color: white;
 }
 
+/* COLUMNS */
+
+.col-4{
+    width: calc(100% / 3);
+    
+}
+
+.col-6{
+    width: calc(100% / 2);
+}
+
+.col-8{
+    width: calc(8 * 100% / 12);
+}
+
+.col-12{
+    width: 100%;
+}
+
 /* HEADER */
 
 .main__header{
