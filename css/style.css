@@ -18,3 +18,9 @@ img{
 ul, ol, menu{
     list-style: none;
 }
+
+/* LAYOUT */
+
+.body{
+    font-family: "Roboto" , sans-serif;
+}
