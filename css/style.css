@@ -25,7 +25,7 @@ ul, ol, menu{
 	--blue: #0084fd;
 	--lightblue: #b5ddff;
 	--lilac: #9792e4;
-	--black: #333333;
+	--dark: #333333;
 	--gold: #fdc15f;
     --grey: #a8a8a8;
 	--gutter: 24px;
@@ -46,7 +46,7 @@ body{
 }
 
 .container-xs{
-    max-width: 600px;
+    max-width: 500px;
     
 }
 
@@ -400,6 +400,26 @@ body{
 }
 
     /* FOOTER */
+
+footer{
+    background-color: var(--dark);
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 2em;
+}
+
+footer .container-xs p:first-child{
+    margin-bottom: 50px;
+}
+
+footer a{
+    color: var(--lilac);
+    text-decoration: underline;
+}
+
+
 
 /* MEDIA QUERY  */
 
