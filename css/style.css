@@ -356,6 +356,17 @@ body{
     width:200px;
 }
 
+.about-us__card__header{
+    position: relative;
+}
+
+.about-us__decoration{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 80px;
+}
+
 .about_us__comment{
     font-weight: 700;
     font-size: 32px;
@@ -470,7 +481,12 @@ footer a{
 
     .about_us__card img{
         width: 250px;
+        
+    }
+
+    .about-us__card__header{
         align-self: center;
+
     }
     
     
