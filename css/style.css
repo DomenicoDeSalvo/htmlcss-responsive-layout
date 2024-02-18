@@ -361,8 +361,6 @@ body{
     margin: 24px 0;
 }
 
-/* FOOTER */
-
 /* CALL TO ACTION */
 
 .cta{
@@ -400,6 +398,8 @@ body{
 .cta p a{
     text-decoration: underline;
 }
+
+    /* FOOTER */
 
 /* MEDIA QUERY  */
 
