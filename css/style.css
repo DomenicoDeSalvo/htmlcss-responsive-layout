@@ -66,6 +66,7 @@ body{
 .button{
     border-radius: 999px;
     padding: 10px;
+    text-align: center;
 }
 
 .button.large{
@@ -96,6 +97,14 @@ body{
     color: white;
     background-color: var(--lilac);
 }
+
+.button.small{
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+
 
 /* COLUMNS */
 
@@ -303,6 +312,42 @@ body{
     text-align: left;
 }
 
+/* ABOUT US */
+
+.about_us{
+    padding: 50px 0;
+    color: var(--lilac);
+}
+
+.about_us__title{
+    padding: 24px 0;
+    font-size: 40px;
+}
+
+.about_us p{
+    color: black;
+    line-height: 2em;
+    margin-bottom: 30px;
+}
+
+.about_us__card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about_us__card img{
+    border-radius: 50%;
+    width:200px;
+}
+
+.about_us__comment{
+    font-weight: 700;
+    font-size: 32px;
+    margin: 24px 0;
+}
+
+
 /* MEDIA QUERY  */
 
 @media screen and (min-width: 768px) {
@@ -342,6 +387,18 @@ body{
     .benefits__number{
         font-size: 60px;
     }
+
+    /* ABOUT US */
+
+    .about_us__title{
+        font-size: 60px;
+    }
+
+    .about_us__card img{
+        width: 250px;
+        align-self: center;
+    }
+    
     
 }
 
@@ -396,6 +453,12 @@ body{
        display: flex;
        flex-direction: column-reverse;
         
+    }
+
+    /* ABOUT US */
+
+    .about_us .container {
+        padding: 0 calc(var(--gutter)*2);
     }
 
     
