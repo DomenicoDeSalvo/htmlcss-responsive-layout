@@ -81,6 +81,17 @@ body{
     color: white;
 }
 
+.round-button{
+    color: black;
+    background-color: var(--lilac);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    
+   
+}
 /* COLUMNS */
 
 
@@ -176,6 +187,43 @@ body{
     width: 250px;
 }
 
+/* STRATEGIC PLANNING */
+
+.strategic{
+    background-color: var(--lilac);
+    color: white;
+    padding: 50px 0;
+}
+
+.strategic__title{
+    font-size: 40px;
+    margin: 40px 0;
+    
+}
+
+.strategic__card{
+    height: 100%;
+}
+
+.strategic__card p{
+    font-size: 14px;
+    line-height: 2em;
+}
+
+.app__development{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+	gap: 28px;
+	align-items: center;
+	text-align: center;
+	padding: 30px 24px;
+    
+    
+}
+
 /* MEDIA QUERY  */
 
 @media screen and (min-width: 768px) {
@@ -195,8 +243,20 @@ body{
     
 }
 
+@media screen and (min-width:768px) and (max-width:991px) {
+    /* STRATEGIC */
+
+    .strategic__title{
+        font-size: 60px;
+    }
+}
+
 @media screen and (min-width: 992px) {
     
+    .col-lg-6{
+        width: 50%;
+    }
+
     /* HEADER */
     .hamburger{
         display: none;
@@ -217,6 +277,18 @@ body{
 
     .hero__card__header img{
         margin: 0 auto;
+    }
+
+    /* STRATEGIC */
+
+    .strategic__card__body{
+        margin-top: 200px;
+    }
+
+    .strategic__card.app{
+       display: flex;
+       flex-direction: column-reverse;
+        
     }
 
     
