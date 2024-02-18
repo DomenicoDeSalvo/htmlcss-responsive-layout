@@ -259,7 +259,7 @@ body{
 
 .testimonials .container:first-child{
     text-align: center;
-    padding: 40px calc(var (--gutter) * 0.5);
+    padding: 24px;
 }
 
 .testimonials .container:first-child *{
@@ -301,6 +301,7 @@ body{
 .benefits__title{
     font-size: 40px;
     color: white;
+    margin-bottom: 40px;
 }
 
 .benefits__card{
