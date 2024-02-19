@@ -539,9 +539,8 @@ footer a{
         margin-top: 200px;
     }
 
-    .strategic__card.app{
-       display: flex;
-       flex-direction: column-reverse;    
+    .self-end{
+        align-self: flex-end;
     }
 
     /* ABOUT US */
