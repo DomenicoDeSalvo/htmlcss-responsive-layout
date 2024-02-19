@@ -541,8 +541,7 @@ footer a{
 
     .strategic__card.app{
        display: flex;
-       flex-direction: column-reverse;
-        
+       flex-direction: column-reverse;    
     }
 
     /* ABOUT US */
